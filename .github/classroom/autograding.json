@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Terulet_teszt",
+      "setup": "gcc -o teglalap main.c",
+      "run": "./teglalap",
+      "input": "5,6",
+      "output": "30",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Kerulet_teszt",
+      "setup": "gcc -o teglalap main.c",
+      "run": "./teglalap",
+      "input": "5,6",
+      "output": "22",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
